@@ -14,6 +14,6 @@ USER node
 # Declara /data como un volumen persistente
 # Esto permite conservar la información de n8n (flujos, credenciales, etc.) fuera del contenedor
 VOLUME /data
-}
+
 # Expone el puerto 8080, que es donde n8n se ejecuta por defecto
 EXPOSE 8080
